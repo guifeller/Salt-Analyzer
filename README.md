@@ -9,7 +9,17 @@ $ pip install -r requirements.txt
 ```
 at the root of the project.
 
-The Analyzer can be launched by running
+NLTK requires a tokenizer to function.
+A tokenizer can be downloaded from the python interpreter.
+Launch the python interpreter (usually, by typing python or python3 in the command prompt / the shell).
+Once you invoked the interpreter, type:
+```
+$ import nltk
+$ nltk.download('punkt')
+```
+
+
+Now the Analyzer can finally be launched by running the main.py script.
 ```
 $ python main.py
 ```
